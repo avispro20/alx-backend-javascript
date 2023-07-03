@@ -1,7 +1,7 @@
-// Implement a class, Building
+// Implement a class Building
 export default class Building {
   constructor(sqft) {
-    this.sqft = sqft;
+    this._sqft = sqft;
   }
 
   get sqft() {
