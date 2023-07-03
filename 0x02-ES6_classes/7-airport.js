@@ -1,4 +1,4 @@
-//Implement a class, Airport
+// Implement a class, Airport
 export default class Airport {
   constructor(name, code) {
     this._name = name;

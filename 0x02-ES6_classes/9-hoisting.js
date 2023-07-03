@@ -1,4 +1,4 @@
-//I fixed this code and made it work
+// I fixed this code and made it work
 export class HolbertonClass {
   constructor(year, location) {
     this._year = year;

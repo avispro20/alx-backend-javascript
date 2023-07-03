@@ -1,4 +1,4 @@
-//Implement a class, HolbertonClass
+// Implement a class, HolbertonClass
 export default class HolbertonClass {
   constructor(size, location) {
     this._size = size;

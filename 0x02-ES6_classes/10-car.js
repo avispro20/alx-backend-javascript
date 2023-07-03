@@ -1,4 +1,4 @@
-//Implement a class named Car
+// Implement a class named Car
 export default class Car {
   constructor(brand, motor, color) {
     this._brand = brand;

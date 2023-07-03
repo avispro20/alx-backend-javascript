@@ -1,4 +1,4 @@
-//Import the ClassRoom class
+// Import the ClassRoom class
 import ClassRoom from './0-classroom';
 
 export default function initializeRooms() {
