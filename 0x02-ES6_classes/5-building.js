@@ -1,4 +1,4 @@
-// Implement a class, Building
+// Implement a class Building
 export default class Building {
   constructor(sqft) {
     this._sqft = sqft;
@@ -12,3 +12,4 @@ export default class Building {
     throw new Error('Class extending Building must override evacuationWarningMessage');
   }
 }
+
