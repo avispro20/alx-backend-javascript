@@ -1,12 +1,14 @@
+/* eslint-disable radix */
 export default function iterateThroughObject(reportWithIterator) {
-  const employeeNames = [];
+  let output = '';
 
-  // Loop through each employee in the report
-  for (const employee of reportWithIterator) {
-    // Add the employee name to the employeeNames array
-    employeeNames.push(employee.name);
+  for (const [index, item] of Object.entries(reportWithIterator)) {
+    output += `${item}`;
+
+    if (parseInt(index) !== reportWithIterator.length - 1) {
+      output += ' | ';
+    }
   }
 
-  // Join the employeeNames array into a string separated by |
-  return employeeNames.join(' | ');
+  return output;
 }
